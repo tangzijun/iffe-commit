@@ -1,6 +1,6 @@
 {
     "name": "@tangzijun/iffe-commitizen-changelog",
-    "version": "0.0.3-alpha.2",
+    "version": "0.0.3-alpha.3",
     "main": "index.js",
     "bin": "./index.js",
     "scripts": {
