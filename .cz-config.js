@@ -35,10 +35,10 @@ module.exports = {
   ],
 
   scopes: [
-    { name: "accounts" },
-    { name: "admin" },
-    { name: "exampleScope" },
-    { name: "changeMe" },
+    // { name: "accounts" },
+    // { name: "admin" },
+    // { name: "exampleScope" },
+    // { name: "changeMe" },
   ],
 
   allowTicketNumber: false,
@@ -65,8 +65,7 @@ module.exports = {
     subject: "简短的变更描述:",
     body: "编写更加详细的描述 (回车跳过):",
     breaking: "列出与上一个版本不兼容的变更 (回车跳过):",
-    footer:
-      "列出本次变更后需要关闭的问题（ISSUES）. 例如: #31, #34.(回车跳过):",
+    footer: "列出本次变更后需要关闭的问题（ISSUES）例如: #31, #34.(回车跳过):",
     confirmCommit: "确定提交吗?",
   },
 
