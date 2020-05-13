@@ -61,7 +61,7 @@ module.exports = {
   messages: {
     type: "提交类型:",
     scope: "本次提交影响的范围(回车跳过):",
-    customScope: "本次提交影响的范围:",
+    customScope: "本次提交影响的范围(回车跳过):",
     subject: "简短的变更描述:",
     body: "编写更加详细的描述 (回车跳过):",
     breaking: "列出与上一个版本不兼容的变更 (回车跳过):",
