@@ -1,0 +1,12 @@
+{
+    "name": "@tangzijun/iffe-commitizen-changelog",
+    "bin": "./my-cli.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tangzijun/iffe-setting.git"
+    },
+    "dependencies": {
+        "commitizen": "^2.7.6",
+        "cz-conventional-changelog": "^1.1.5"
+    }
+}
