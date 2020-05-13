@@ -1,9 +1,10 @@
 {
     "name": "@tangzijun/iffe-commitizen-changelog",
+    "version": "v0.0.1",
     "bin": "./my-cli.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tangzijun/iffe-setting.git"
+        "url": "https://github.com/tangzijun/iffe-commitizen-changelog.git"
     },
     "dependencies": {
         "commitizen": "^2.7.6",
