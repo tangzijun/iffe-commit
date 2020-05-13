@@ -59,11 +59,11 @@ module.exports = {
     */
   // override the messages, defaults are as follows
   messages: {
-    type: "选择提交类型:",
-    scope: "选择该提交的影响范围(回车跳过):",
-    customScope: "选择本次提交影响的范围:",
-    subject: "编写简短的变更描述:",
-    body: '编写更加详细的描述，使用 "|" 进行换行 (回车跳过):',
+    type: "提交类型:",
+    scope: "本次提交影响的范围(回车跳过):",
+    customScope: "本次提交影响的范围:",
+    subject: "简短的变更描述:",
+    body: "编写更加详细的描述 (回车跳过):",
     breaking: "列出与上一个版本不兼容的变更 (回车跳过):",
     footer:
       "列出本次变更后需要关闭的问题（ISSUES）. 例如: #31, #34.(回车跳过):",
