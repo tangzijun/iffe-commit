@@ -1,7 +1,11 @@
 {
     "name": "@tangzijun/iffe-commitizen-changelog",
     "version": "0.0.2",
-    "bin": "./my-cli.js",
+    "main": "index.js",
+    "bin": "./index.js",
+    "scripts": {
+        "cz": "git add . && node index.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/tangzijun/iffe-commitizen-changelog.git"
