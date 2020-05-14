@@ -10,7 +10,7 @@ const editJsonFile = require("edit-json-file");
 
 const pkgUrl = `${process.cwd()}/package.json`;
 let file = editJsonFile(pkgUrl);
-const pakName = file.get("name");
+const pakName = "iffe-commit";
 
 file.set("scripts.commit", "git add . && git-cz");
 
