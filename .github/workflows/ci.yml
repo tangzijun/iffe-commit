@@ -2,9 +2,7 @@ name: Release
 
 on:
   repository_dispatch:
-  types: [run_tests]
-
-on:
+    types: [run_tests]
   push:
     branches:
       - next
