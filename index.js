@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 "use strict";
 
-// const minimist = require("minimist");
-// const rawArgs = process.argv.slice(2);
-// const args = minimist(rawArgs);
-// const path = require("path");
+const minimist = require("minimist");
+const rawArgs = process.argv.slice(2);
+const args = minimist(rawArgs);
+const path = require("path");
 
 const editJsonFile = require("edit-json-file");
 
