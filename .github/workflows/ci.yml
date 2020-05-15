@@ -1,4 +1,9 @@
 name: Release
+
+on:
+  repository_dispatch:
+  types: [run_tests]
+
 on:
   push:
     branches:
