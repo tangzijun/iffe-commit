@@ -1,11 +1,13 @@
 name: Release
 
-on:[push, pull_request]:
-  branches:
-    - master
-    - alpha
-    - next
-    - beta
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+      - alpha
+      - next
+      - beta
 jobs:
   release:
     name: Release
