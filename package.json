@@ -1,22 +1,39 @@
 {
-    "name": "@tangzijun/iffe-commitizen-changelog",
-    "version": "0.0.3-alpha.1",
+    "name": "iffe-commit",
+    "version": "0.0.3-alpha.7",
     "main": "index.js",
     "bin": "./index.js",
     "scripts": {
-        "cz": "git add . && node index.js",
-        "ps-next": "npm version prerelease --preid=alpha && npm publish"
+        "ps": "npm version prerelease --preid=alpha && npm publish",
+        "commit": "git add . && git-cz"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/tangzijun/iffe-commitizen-changelog.git "
     },
     "dependencies": {
+        "commitizen": "^2.7.6",
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
-        "commitizen": "^2.7.6",
         "cz-conventional-changelog": "^1.1.5",
         "cz-customizable": "^6.2.0",
-        "husky": "^4.2.5"
+        "cross-env": "^7.0.2",
+        "edit-json-file": "^1.4.0",
+        "husky": "^4.2.5",
+        "minimist": "^1.2.5"
+    },
+    "devDependencies": {},
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": "./cz-config.js"
+        }
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint --config commitlint.config.js -E HUSKY_GIT_PARAMS"
+        }
     }
 }
