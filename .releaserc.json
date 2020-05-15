@@ -12,7 +12,10 @@
       "name": "alpha",
       "prerelease": true
     },
-    "dev"
+    {
+      "name": "dev",
+      "channel": "channel-ceshi'"
+    }
   ],
   "extends": []
 }
