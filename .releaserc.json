@@ -14,7 +14,8 @@
     },
     {
       "name": "dev",
-      "channel": "channel-${name}"
+      "channel": "channel-abc",
+      "prerelease": true
     }
   ],
   "extends": []
