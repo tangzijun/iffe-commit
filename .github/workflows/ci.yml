@@ -1,13 +1,12 @@
 name: Release
 
 on:
-  repository_dispatch:
-    types: [run_tests]
-  push:
+  pull_request:
     branches:
+      - master
+      - alpha
       - next
       - beta
-      - dev
 jobs:
   release:
     name: Release
@@ -15,10 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 12
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
