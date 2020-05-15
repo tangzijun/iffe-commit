@@ -5,7 +5,7 @@ on:
     types: [run_tests]
   push:
     branches:
-      - next
+      - [next, beta]
 jobs:
   release:
     name: Release
