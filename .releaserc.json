@@ -14,7 +14,7 @@
     },
     {
       "name": "dev",
-      "channel": "channel-ceshi'"
+      "channel": "channel-${name}"
     }
   ],
   "extends": []
