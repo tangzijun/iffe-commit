@@ -1,6 +1,6 @@
 {
     "name": "iffe-commit",
-    "version": "0.0.3-alpha.7",
+    "version": "2.0.1-next.0",
     "main": "index.js",
     "bin": "./index.js",
     "scripts": {
