@@ -12,10 +12,7 @@
       "name": "alpha",
       "prerelease": true
     },
-    {
-      "name": "dev",
-      "prerelease": true
-    }
+    "dev"
   ],
   "extends": []
 }
