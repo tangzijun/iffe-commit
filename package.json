@@ -5,7 +5,9 @@
     "bin": "./index.js",
     "scripts": {
         "ps": "npm version prerelease --preid=alpha && npm publish",
-        "commit": "git add . && git-cz"
+        "commit": "git add . && git-cz",
+        "push": "git push origin master",
+        "pull": "git pull origin master --rebase"
     },
     "repository": {
         "type": "git",
