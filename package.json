@@ -14,9 +14,7 @@
         "url": "https://github.com/tangzijun/iffe-commit.git "
     },
     "dependencies": {
-        "edit-json-file": "^1.4.0"
-    },
-    "devDependencies": {
+        "edit-json-file": "^1.4.0",
         "fs-extra": "^9.0.0",
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
@@ -43,6 +41,7 @@
         "lint-staged": "^10.2.4",
         "minimist": "^1.2.5"
     },
+    "devDependencies": {},
     "config": {
         "commitizen": {
             "path": "node_modules/cz-customizable"
