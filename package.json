@@ -13,10 +13,11 @@
         "type": "git",
         "url": "https://github.com/tangzijun/iffe-commit.git "
     },
-    "dependencies": {},
+    "dependencies": {
+        "edit-json-file": "^1.4.0"
+    },
     "devDependencies": {
         "fs-extra": "^9.0.0",
-        "edit-json-file": "^1.4.0",
         "@commitlint/cli": "^8.3.5",
         "@commitlint/config-conventional": "^8.3.4",
         "@semantic-release/commit-analyzer": "^8.0.1",
