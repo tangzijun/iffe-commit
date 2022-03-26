@@ -39,7 +39,7 @@
         "eslint-plugin-react-hooks": "^4.0.2",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.4",
-        "minimist": "^1.2.5"
+        "minimist": "^1.2.6"
     },
     "devDependencies": {},
     "config": {
